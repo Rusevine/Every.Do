@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TodoTableViewCell.h
 //  Every.Do
 //
 //  Created by Wiljay Flores on 2018-08-14.
@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Todo;
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface TodoTableViewCell : UITableViewCell
 
+
+- (void)configureCell:(Todo*)todo;
 
 @end
-

@@ -14,6 +14,7 @@
 		46D03D2D2123278F00F09E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D03D2B2123278F00F09E2B /* LaunchScreen.storyboard */; };
 		46D03D302123278F00F09E2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D03D2F2123278F00F09E2B /* main.m */; };
 		46D03D382123280500F09E2B /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D03D372123280500F09E2B /* Todo.m */; };
+		46D03D3B2123313800F09E2B /* TodoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D03D3A2123313800F09E2B /* TodoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		46D03D2F2123278F00F09E2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46D03D362123280500F09E2B /* Todo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
 		46D03D372123280500F09E2B /* Todo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		46D03D392123313800F09E2B /* TodoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoTableViewCell.h; sourceTree = "<group>"; };
+		46D03D3A2123313800F09E2B /* TodoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				46D03D212123278D00F09E2B /* AppDelegate.m */,
 				46D03D232123278D00F09E2B /* ViewController.h */,
 				46D03D242123278D00F09E2B /* ViewController.m */,
+				46D03D392123313800F09E2B /* TodoTableViewCell.h */,
+				46D03D3A2123313800F09E2B /* TodoTableViewCell.m */,
 				46D03D262123278D00F09E2B /* Main.storyboard */,
 				46D03D362123280500F09E2B /* Todo.h */,
 				46D03D372123280500F09E2B /* Todo.m */,
@@ -148,6 +153,7 @@
 			files = (
 				46D03D252123278D00F09E2B /* ViewController.m in Sources */,
 				46D03D302123278F00F09E2B /* main.m in Sources */,
+				46D03D3B2123313800F09E2B /* TodoTableViewCell.m in Sources */,
 				46D03D222123278D00F09E2B /* AppDelegate.m in Sources */,
 				46D03D382123280500F09E2B /* Todo.m in Sources */,
 			);

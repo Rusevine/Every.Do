@@ -9,16 +9,13 @@
 #import "Todo.h"
 
 @interface Todo ()
-@property (nonatomic, strong) NSString *title;
-@property (nonatomic, strong) NSString *detail;
-@property (nonatomic) NSInteger *priorityNumber;
 @property (nonatomic) BOOL isCompleted;
 @end
 
 
 @implementation Todo
 
--(instancetype)initWithTitle:(NSString *)title detail:(NSString *)detail priority:(NSInteger *)priority{
+-(instancetype)initWithTitle:(NSString *)title detail:(NSString *)detail priority:(int)priority{
     if(self = [super init]){
         _title = title;
         _detail = detail;

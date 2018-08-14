@@ -10,6 +10,10 @@
 
 @interface Todo : NSObject
 
--(instancetype)initWithTitle:(NSString *)title detail:(NSString *)detail priority:(NSInteger *)priority;
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *detail;
+@property (nonatomic) int priorityNumber;
+
+-(instancetype)initWithTitle:(NSString *)title detail:(NSString *)detail priority:(int)priority;
 
 @end
