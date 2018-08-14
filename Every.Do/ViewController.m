@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DetailViewController.h"
 #import "TodoTableViewCell.h"
 #import "Todo.h"
 
@@ -18,9 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Todo *clean = [[Todo alloc] initWithTitle:@"clean" detail:@"do it" priority:1];
-    Todo *homework = [[Todo alloc] initWithTitle:@"homework" detail:@"do it" priority:2];
-    Todo *cook = [[Todo alloc] initWithTitle:@"cook" detail:@"do it" priority:3];
+    Todo *clean = [[Todo alloc] initWithTitle:@"clean" detail:@"do itfdsfdfdsfsfdfsfdfsdff" priority:1];
+    Todo *homework = [[Todo alloc] initWithTitle:@"homework" detail:@"do itldsffoskejlfkgoifgjlkfhdljshdfg" priority:2];
+    Todo *cook = [[Todo alloc] initWithTitle:@"cook" detail:@"do itkjfkdjs[spdfioisodifodsifdfsiodifos" priority:3];
     
     _todos = @[clean,homework,cook];
     
@@ -41,6 +42,17 @@
     [cell configureCell:todo];
     
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(TodoTableViewCell*)sender
+{
+    if ([segue.identifier isEqualToString:@"todoSegue"]) {
+        DetailViewController *dvc = segue.destinationViewController;
+        TodoTableViewCell *cell = sender;
+        
+        dvc.todoDetail = cell.todoCell;
+        
+    }
 }
 
 

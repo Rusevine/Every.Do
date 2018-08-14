@@ -8,11 +8,13 @@
 
 #import "TodoTableViewCell.h"
 #import "Todo.h"
+#import "DetailViewController.h"
 
 @interface TodoTableViewCell ()
 @property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UILabel *detail;
 @property (weak, nonatomic) IBOutlet UILabel *priority;
+
 
 @end
 
@@ -30,7 +32,8 @@
 }
 
 -(void)configureCell:(Todo*)todo{
-
+    
+    self.todoCell = todo;
     NSString *title = todo.title;
     NSString *detail = todo.detail;
     NSString *priority = [NSString stringWithFormat:@"%d",todo.priorityNumber];
@@ -39,5 +42,6 @@
     self.priority.text = priority;
     
 }
+
 
 @end

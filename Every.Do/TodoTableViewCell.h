@@ -11,6 +11,7 @@
 
 @interface TodoTableViewCell : UITableViewCell
 
+@property (nonatomic) Todo *todoCell;
 
 - (void)configureCell:(Todo*)todo;
 

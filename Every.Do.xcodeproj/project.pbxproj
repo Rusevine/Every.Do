@@ -15,6 +15,7 @@
 		46D03D302123278F00F09E2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D03D2F2123278F00F09E2B /* main.m */; };
 		46D03D382123280500F09E2B /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D03D372123280500F09E2B /* Todo.m */; };
 		46D03D3B2123313800F09E2B /* TodoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D03D3A2123313800F09E2B /* TodoTableViewCell.m */; };
+		46D03D3E2123559E00F09E2B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D03D3D2123559E00F09E2B /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		46D03D372123280500F09E2B /* Todo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
 		46D03D392123313800F09E2B /* TodoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoTableViewCell.h; sourceTree = "<group>"; };
 		46D03D3A2123313800F09E2B /* TodoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTableViewCell.m; sourceTree = "<group>"; };
+		46D03D3C2123559E00F09E2B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		46D03D3D2123559E00F09E2B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +73,11 @@
 				46D03D242123278D00F09E2B /* ViewController.m */,
 				46D03D392123313800F09E2B /* TodoTableViewCell.h */,
 				46D03D3A2123313800F09E2B /* TodoTableViewCell.m */,
-				46D03D262123278D00F09E2B /* Main.storyboard */,
 				46D03D362123280500F09E2B /* Todo.h */,
 				46D03D372123280500F09E2B /* Todo.m */,
+				46D03D3C2123559E00F09E2B /* DetailViewController.h */,
+				46D03D3D2123559E00F09E2B /* DetailViewController.m */,
+				46D03D262123278D00F09E2B /* Main.storyboard */,
 				46D03D292123278F00F09E2B /* Assets.xcassets */,
 				46D03D2B2123278F00F09E2B /* LaunchScreen.storyboard */,
 				46D03D2E2123278F00F09E2B /* Info.plist */,
@@ -156,6 +161,7 @@
 				46D03D3B2123313800F09E2B /* TodoTableViewCell.m in Sources */,
 				46D03D222123278D00F09E2B /* AppDelegate.m in Sources */,
 				46D03D382123280500F09E2B /* Todo.m in Sources */,
+				46D03D3E2123559E00F09E2B /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
