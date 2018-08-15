@@ -14,6 +14,6 @@
 @property (nonatomic, strong) NSString *detail;
 @property (nonatomic) int priorityNumber;
 
--(instancetype)initWithTitle:(NSString *)title detail:(NSString *)detail priority:(int)priority;
+-(instancetype)initWithTitle:(NSString *)title detail:(NSString *)detail;
 
 @end

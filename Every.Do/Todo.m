@@ -15,11 +15,11 @@
 
 @implementation Todo
 
--(instancetype)initWithTitle:(NSString *)title detail:(NSString *)detail priority:(int)priority{
+-(instancetype)initWithTitle:(NSString *)title detail:(NSString *)detail{
     if(self = [super init]){
         _title = title;
         _detail = detail;
-        _priorityNumber = priority;
+        _priorityNumber = 0;
         _isCompleted = NO;
     }
     return self;
